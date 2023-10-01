@@ -1,0 +1,18 @@
+/* CSS untuk mengatur tampilan video */
+#video-container {
+    max-width: 100%; /* Maksimum lebar kontainer */
+    margin: 0 auto; /* Pusatkan video di tengah halaman */
+    padding: 16px; /* Tambahkan ruang di sekitar video */
+}
+
+video {
+    width: 100%; /* Video mengisi lebar kontainer */
+    height: auto; /* Tinggi disesuaikan agar tidak terdistorsi */
+}
+
+/* Media queries untuk tampilan responsif */
+@media screen and (max-width: 768px) {
+    #video-container {
+        padding: 8px; /* Mengurangi ruang di sekitar video pada layar yang lebih kecil */
+    }
+}
